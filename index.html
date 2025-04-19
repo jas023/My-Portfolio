@@ -1,0 +1,291 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jasleen Kaur | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      background: linear-gradient(to right, #ffb6c1, #ffe4e1);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .navbar-brand span {
+      color: #ff69b4;
+      font-weight: 900;
+    }
+
+    .hero, #about {
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 50px;
+      margin-top: 90px;
+      background-color: #ffffff;
+    }
+
+    .hero h1 {
+      font-size: 2.7rem;
+      color: #d63384;
+    }
+
+    
+    .hero img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #ffb6c1;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #d63384;
+      position: relative;
+      margin-bottom: 2rem;
+    }
+
+    .section-title::after {
+      content: '';
+      width: 60px;
+      height: 4px;
+      background-color: #ff69b4;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -10px;
+      border-radius: 10px;
+    }
+
+    .skills .progress {
+      height: 22px;
+      background-color: #ffe4e1;
+      border-radius: 30px;
+      margin-bottom: 1rem;
+    }
+
+    .progress-bar {
+      font-weight: 600;
+      color: black;
+    }
+
+    .project-card {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border: none;
+      transition: 0.3s ease;
+      border-radius: 10px;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .testimonial {
+      background: #fffafa;
+      padding: 1.5rem;
+      border-left: 4px solid #ff69b4;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      border-radius: 1rem;
+      transition: 0.3s;
+    }
+
+    .testimonial:hover {
+      transform: scale(1.02);
+    }
+
+    footer {
+      background-color: #ffe4e1;
+      padding: 2rem 0;
+    }
+
+    footer i {
+      font-size: 1.5rem;
+      color: #d63384;
+      margin: 0 10px;
+    }
+
+    .icon-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        text-align: center;
+      }
+
+      .hero img {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span>J</span>ASLEEN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Home -->
+<section id="home" class="container hero d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 py-5">
+  <img src="profile.jpg" alt="Jasleen Profile Picture" style="width: 160px; height: 160px; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
+    <h1 class="mb-1">Hi, I'm Jasleen Kaur</h1>
+    <p class="text-muted mb-0"><pre>              <b>Undergraduate student</b>    </pre></p>
+  </div>
+</section>
+
+
+
+  <!-- About -->
+  <section id="about" class="container mt-5 mb-5">
+    <h2 class="section-title">About Me</h2>
+    <p class="text-center w-75 mx-auto">Hello! I'm a computer science student persuing <b>BCA</b>(Bachelor of Computer Application) from <b>GNDU</b>, Amritsar.<br>I enjoy crafting websites using HTML, CSS, JAVASCRIPT & BOOTSTRAP. Along with this i am really curious about tech beyond coding especially AI(Artificial Intelligence).<br> I value continuous learning and love to collaborate, explore and beleive, One can grow through experiences and conversations.<br> <br>Currently, I'm polishing my frontend skills and learning about other languages also. Always open to opportunities and excited for where this journey leads!! </p>
+    <div class="text-center">
+      <a href="resume.pdf.jpg" class="btn btn-outline-dark mt-3" download>Download My Resume</a>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container mb-5">
+    <h2 class="section-title">Skills</h2>
+    <div class="mb-2 icon-label"><i class="fab fa-html5 text-danger"></i> HTML
+      <div class="progress w-100"><div class="progress-bar bg-danger" style="width: 95%">95%</div></div>
+    </div>
+    <div class="mb-2 icon-label"><i class="fab fa-css3-alt text-primary"></i> CSS
+      <div class="progress w-100"><div class="progress-bar bg-primary" style="width: 90%">90%</div></div>
+    </div>
+    <div class="mb-2 icon-label"><i class="fab fa-bootstrap text-purple"></i> Bootstrap
+      <div class="progress w-100"><div class="progress-bar bg-info" style="width: 60%">60%</div></div>
+    </div>
+    <div class="mb-2 icon-label"><i class="fas fa-code text-success"></i> C
+      <div class="progress w-100"><div class="progress-bar bg-success" style="width: 87%">87%</div></div>
+    </div>
+    <div class="mb-2 icon-label"><i class="fas fa-code text-success"></i> C++
+      <div class="progress w-100"><div class="progress-bar bg-success" style="width: 85%">85%</div></div>
+    </div>
+    <div class="mb-2 icon-label"><i class="fab fa-java text-warning"></i> Java
+      <div class="progress w-100"><div class="progress-bar bg-warning" style="width: 70%">70%</div></div>
+    </div>
+    <div class="mb-2 icon-label"><i class="fas fa-database text-secondary"></i> DSA
+      <div class="progress w-100"><div class="progress-bar bg-secondary" style="width: 65%">65%</div></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+<section id="projects" class="container mb-5">
+  <h2 class="section-title">Projects</h2>
+  <div class="row justify-content-center">
+
+    <!-- Project 1 -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card project-card text-center">
+        <img src="game.png" class="card-img-top" alt="Tic Tac Toe Game">
+        <div class="card-body">
+          <h5 class="card-title">Tic Tac Toe Game</h5>
+          <p class="card-text">A tic tac toe game designed using HTML5, CSS3, and JavaScript.</p>
+          <a href="https://jas023.github.io/tic-tac-toe/" class="btn btn-sm btn-outline-primary">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card project-card text-center">
+        <img src="error page.png" class="card-img-top" alt="404 Error Page">
+        <div class="card-body">
+          <h5 class="card-title">404 Error Page</h5>
+          <p class="card-text">A clean and responsive 404 error page designed using HTML5 and CSS3.</p>
+          <a href="https://github.com/jas023/404-error-page" class="btn btn-sm btn-outline-primary">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="container mb-5">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="testimonial">
+          <p>"Jasleen is a quick learner and always delivers good results."</p>
+          <strong>- Hunar</strong>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="testimonial">
+          <p>"She is very good teammate and always gives her best."</p>
+          <strong>-A Teammate</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <!-- Contact -->
+<section id="contact" class="container mb-5">
+  <h2 class="section-title">Contact</h2>
+  <form class="contact-form w-75 mx-auto">
+    <div class="mb-3">
+      <input type="text" class="form-control" placeholder="Write your Name" />
+    </div>
+    <div class="row mb-3">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <input type="email" class="form-control" placeholder="Write your Email" />
+      </div>
+      <div class="col-md-6">
+        <input type="number" class="form-control" placeholder="Write your Number" />
+      </div>
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-dark">Send Message</button>
+    </div>
+  
+  </form>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <p>Connect with me</p>
+    <div>
+      <a href="https://www.linkedin.com/in/jasleen-kaur-8963051b7/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/jas023" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
