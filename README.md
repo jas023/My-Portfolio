@@ -1,18 +1,15 @@
-# My-Portfolio
-<br>
-This is the personal portfolio made for project. This is not the actual one but yet represents some of the part.
+# My Portfolio
 <hr>
+This is a personal portfolio created as a project. It’s not my complete portfolio, but it represents some of my work and details.
 <br>
 What it includes:
 <br>
-<br>
- * My some of projects.
+Some of my projects
 
-* Skills
+Skills
 
-* Linkedin Profile
+LinkedIn profile link
 
-* Education
+Education details
 
-* About
- 
+About section
