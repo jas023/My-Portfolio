@@ -6,7 +6,7 @@ This is the personal portfolio made for project. This is not the actual one but 
 What it includes:
 <br>
 <br>
-* My someof projects.
+ * My some of projects.
 
 * Skills
 
